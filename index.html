@@ -4,62 +4,73 @@
 <head>
     <meta charset="UTF-8" />
     <title>Portifólio de Carlos Eduardo Oliveira</title>
-    <style>
-        h1 {
-            color: rgb(199, 194, 186);
-        }
-        h2 {
-            color: #cacaca;
-        }
-        body {
-            background-color: #2a2a2a;
-        }
-
-        .letter_color{
-            color: #8a8a8a;
-        }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <h1><b>Olá, meu nome é Carlos Eduardo Oliveira</b></h1>
+    <div>
+        <header class="header">
+            <b>Olá, meu nome é Carlos Eduardo Oliveira</b>
+        </header>
+    </div>
 
-    <img src="imagens/foto_de_Perfil2.jpg" title="Kadu sorrindo" width="300px" />
-    <h2>Sobre mim:</h2>
+    <div class="img">
+        <img class="img" src="imagens/foto_de_perfil3.jpg" title="Kadu sorrindo" />
+    </div>
 
-    <p id="Carlos" class="letter_color">
-        Olá me chamo Carlos tenho 41 anos, sou casado, tenho uma filha, 2 cachorros muito companheiros, tenho meu pais
-        por perto e moro em São Paulo, capital. <br>Atualmente estou estudando no curso de Desenvolvimento Web na
-        <strong>Trybe</strong><br>
-        Após trabalhar por 17 anos em uma metalúrgica, e ser despensado, decidi mudar de carreira e embarcar nessa área
-        de Desenvolvimento Web, uma área que praticamente não conheço nada.<br>
-        A cada dia no curso da <strong>Trybe</strong> aprendo muitas coisas novas com os pessoal do curso e com meus
-        colegas também.</p>
+    <div class="paragrafo">
+        <h2>Sobre mim:</h2>
 
-    <h2>No curso vou aprender sobre:</h2>
-    <ul class="letter_color">
-        <li>CSS</li>
-        <li>Posicionamento em CSS</li>
-        <li>HTML Semântico</li>
-        <li>JavaScript</li>
-        <li>DOM</li>
-        <li>FlexBox</li>
-    </ul>
+        <p class="letter_color">
+            Olá me chamo Carlos tenho 41 anos, sou casado, tenho uma filha, 2 cachorros muito companheiros, tenho meu
+            pais
+            por perto e moro em São Paulo, capital. <br>Atualmente estou estudando no curso de Desenvolvimento Web na
+            <span class="trybe">Trybe!</span><br>
+            Após trabalhar por 17 anos em uma metalúrgica, e ser despensado, decidi mudar de carreira e embarcar nessa
+            área
+            de Desenvolvimento Web, uma área que praticamente não conheço nada.<br>
+            A cada dia no curso da <span class="trybe">Trybe</span> aprendo muitas coisas novas com os pessoal do curso
+            e com meus
+            colegas também.</p>
+    </div>
 
-    <h2 id="habilidades">Algumas habilidades que possuo:</h2>
+    <div class="div_coluna">
+        <h2>No curso da <span class="trybe">Trybe</span> vou aprender sobre:</h2>
 
-    <ul class="letter_color">
-        <li><em>Aprendo as coisas rápido</em></li>
-        <li><b>Sei escutar</b></li>
-        <li><em>Sou carismático</em></li>
-        <li><b>Sou prestativo</b></li>
-        <li><em>Sou comunicativo</em></li>
-    </ul>
+        <ul class="letter_color list_style">
+            <li>CSS</li>
+            <li>Posicionamento em CSS</li>
+            <li>HTML Semântico</li>
+            <li>JavaScript</li>
+            <li>DOM</li>
+            <li>FlexBox</li>
+        </ul>
+    </div>
 
+    <div class="div_coluna">
+        <h2>Algumas habilidades que possuo:</h2>
 
-    <li><a href="#Carlos">Sobre mim</a></li>
-    <li><a href="#habilidades">Minhas habilidades</a></li>
+        <ul class="letter_color list_style">
+            <li><em>Aprendo as coisas rápido</em></li>
+            <li><b>Sei escutar</b></li>
+            <li><em>Sou carismático</em></li>
+            <li><b>Sou prestativo</b></li>
+            <li><em>Sou comunicativo</em></li>
+        </ul>
+    </div>
+
+    <div>
+        <nav class="nav1">
+            <a href="https://github.com/Kduuu0581" target="_blank"><img
+                    src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white"
+                    alt="github.png">
+            </a>
+            <a href="https://www.linkedin.com/in/carlos-oliveira-61935522b/" target="_blank"><img
+                    src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"
+                    alt="linkedin.png">
+            </a>
+        </nav>
+    </div>
 
 </body>
 
